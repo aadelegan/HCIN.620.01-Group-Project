@@ -23,4 +23,5 @@ There is another research evidence that a redesign can imporve usability and cre
 <b>Reference Citation:<b> 
 <ul>
   <li>https://www.ijres.org/papers/Volume-13/Issue-7/13077382.pdf</li>
+  <li>J. Tardivo et al., "Design Thinking in Practice: The Case for a Redesign to Improve a Reservation System in an Educational Environment," 2024 L Latin American Computer Conference (CLEI), Buenos Aires, Argentina, 2024, pp. 1-10, doi: 10.1109/CLEI64178.2024.10700258. keywords: {Surveys;Statistical analysis;User centered design;User experience;Software;Security;Interviews;Usability;Software engineering;Software development management;Evaluation;design thinking;software engineering;requirements engineering;user experience}, </li>
 </ul>
