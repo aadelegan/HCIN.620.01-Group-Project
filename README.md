@@ -2,7 +2,7 @@
 **Team Members:** Aderonke Adelegan, Josh Samuel, Selassie Susuawu
 
 
-**Steakholders: RIT University, RIT Students, Clubs/Organizations** 
+**Stakeholders: RIT University, RIT Students, Clubs/Organizations** 
 
 
 **Potential Users:** RIT Students, RIT Clubs/Organizations
