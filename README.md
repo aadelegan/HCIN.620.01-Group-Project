@@ -22,7 +22,7 @@ There is another research evidence that a redesign can imporve usability and cre
 
 <b>Reference Citation:<b> 
 <ul>
-  Online Reservation Inventory Systems in Higher Education: A Gap Analysis and Enhancement Framework with SMS Notification Support
+   <li>J. Online Reservation Inventory Systems in Higher Education: A Gap Analysis and Enhancement Framework with SMS Notification Support
   John Mikael Sayson,Jomel C. Reyes, Jeffric S. Pisueña 
 *1,2,3 State University of Northern Negros, Old Sagay, Sagay City, Negros Occidental, Philippines
   International Journal of Research in Engineering and Science (IJRES) ISSN (Online): 2320-9364, ISSN (Print): 2320-9356 www.ijres.org Volume 13 Issue 7 ǁ July 2025 ǁ PP. 73-82
