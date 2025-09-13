@@ -1,4 +1,4 @@
-# Group 3-Project
+# Group 3 Project
 **Team Members:** Aderonke Adelegan, Josh Samuel, Selassie Susuawu
 
 
