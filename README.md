@@ -1,4 +1,4 @@
-# Group 3 Project
+# Room Reservation Redesign
 **Team Members:** Aderonke Adelegan, Josh Samuel, Selassie Susuawu
 
 
