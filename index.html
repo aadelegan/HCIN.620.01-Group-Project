@@ -45,11 +45,11 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
 
-</head>
+</head> <!-- ← Close head tag properly -->
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
-
+<!-- NAVBAR -->
 <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
   <div class="container">
     <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
@@ -57,6 +57,7 @@ FACEBOOK: https://www.facebook.com/themefisher
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ti-menu"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown active">
@@ -72,7 +73,6 @@ FACEBOOK: https://www.facebook.com/themefisher
             <li class="dropdown dropdown-submenu dropright">
               <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
               <ul class="dropdown-menu" aria-labelledby="dropdown0301">
                 <li><a class="dropdown-item" href="index.html">Submenu 11</a></li>
                 <li><a class="dropdown-item" href="index.html">Submenu 12</a></li>
@@ -80,18 +80,18 @@ FACEBOOK: https://www.facebook.com/themefisher
             </li>
           </ul>
         </li>
-        <li class="nav-item dropdown @@pages">
+
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Pages
             <span><i class="ti-angle-down"></i></span>
           </a>
-          <!-- Dropdown list -->
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item @@team" href="team.html">Team</a></li>
-            <li><a class="dropdown-item @@career" href="career.html">Career</a></li>
-            <li><a class="dropdown-item @@blog" href="blog.html">Blog</a></li>
-            <li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
-            <li><a class="dropdown-item @@privacy" href="privacy-policy.html">Privacy</a></li>
-            <li><a class="dropdown-item @@faq" href="FAQ.html">FAQ</a></li>
+            <li><a class="dropdown-item" href="team.html">Team</a></li>
+            <li><a class="dropdown-item" href="career.html">Career</a></li>
+            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+            <li><a class="dropdown-item" href="privacy-policy.html">Privacy</a></li>
+            <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
             <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
             <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
             <li><a class="dropdown-item" href="404.html">404</a></li>
@@ -100,7 +100,6 @@ FACEBOOK: https://www.facebook.com/themefisher
             <li class="dropdown dropdown-submenu dropleft">
               <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
               <ul class="dropdown-menu" aria-labelledby="dropdown0501">
                 <li><a class="dropdown-item" href="index.html">Submenu 21</a></li>
                 <li><a class="dropdown-item" href="index.html">Submenu 22</a></li>
@@ -108,165 +107,125 @@ FACEBOOK: https://www.facebook.com/themefisher
             </li>
           </ul>
         </li>
-        <li class="nav-item @@about">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item @@contact">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!--====================================
-=            Hero Section            =
-=====================================-->
+<!-- HERO SECTION -->
 <style>
   .gradient-banner {
-    background: linear-gradient(to right, #FD1D1D, #FCB045); /* sunset gradient */
+    background: linear-gradient(to right, #FD1D1D, #FCB045);
     color: white;
     padding: 100px 0;
     text-align: center;
   }
 </style>
-	<section class="section gradient-banner">
-	
-	<div class="shapes-container">
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
-		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
-		<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
-	</div>
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white mb-4"><b>RIT Study Room Reservation Redesign</b></h1>
-				<p class="text-white mb-5">An interface redesign to simplify the process of reserving a study room with RIT Library Services. Our design prioritizes a seemless flow that that is intuitive and easy to read and view.</p>
-			</div>
-			<div class="col-md-6 text-center order-1 order-md-2">
-				<img class="img-fluid" src="images/laptop.jpg">
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Hero Section  ====-->
 
+<section class="section gradient-banner">
+  <div class="shapes-container">
+    <!-- Shapes (for animation effects) -->
+    <!-- ... Keep shapes here if needed -->
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+        <h1 class="text-white mb-4"><b>RIT Study Room Reservation Redesign</b></h1>
+        <p class="text-white mb-5">An interface redesign to simplify the process of reserving a study room with RIT Library Services. Our design prioritizes a seamless flow that is intuitive and easy to read and view.</p>
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <img class="img-fluid" src="images/laptop.jpg" alt="Laptop">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT TEAM SECTION -->
 <section class="section pt-0 position-relative pull-top">
-	<div class="container">
-		<div class="rounded shadow p-5 bg-white">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-			
-					<h3 class="mt-4 text-capitalize h5 ">Aderonke Adelegan</h3>
-					<p class="regular text-muted">RIT Graduate student in the HCI Program based in Atlanta, GA. Aderonke has a background in Quality Assurance testing and hopes to mesh the world of design and testing.</p>
-				</div>
-				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-					
-					<h3 class="mt-4 text-capitalize h5 ">John Samuel</h3>
-					<p class="regular text-muted">RIT Graduate student in the HCI Program</p>
-				</div>
-				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
-					
-					<h3 class="mt-4 text-capitalize h5 ">Selassie Susuawu</h3>
-					<p class="regular text-muted">Selassie has a background in cybersecurity and information systems. He's always been fascinated by the human element in security and how people’s behaviors, decisions, and interactions shape the overall risk landscape. This is his inspiration for pursuing further studies in Human-Computer Interaction (HCI)</p>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="rounded shadow p-5 bg-white">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+          <h3 class="mt-4 text-capitalize h5">Aderonke Adelegan</h3>
+          <p class="regular text-muted">RIT Graduate student in the HCI Program based in Atlanta, GA. Aderonke has a background in Quality Assurance testing and hopes to mesh the world of design and testing.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+          <h3 class="mt-4 text-capitalize h5">John Samuel</h3>
+          <p class="regular text-muted">RIT Graduate student in the HCI Program</p>
+        </div>
+        <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
+          <h3 class="mt-4 text-capitalize h5">Selassie Susuawu</h3>
+          <p class="regular text-muted">Selassie has a background in cybersecurity and information systems. He's always been fascinated by the human element in security and how people’s behaviors, decisions, and interactions shape the overall risk landscape. This is his inspiration for pursuing further studies in Human-Computer Interaction (HCI).</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!--==================================
-=            Feature Grid            =
-===================================-->
+<!-- STAKEHOLDERS SECTION -->
 <section class="feature section pt-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 ml-auto justify-content-center">
         <div class="image-content" data-aos="fade-right">
-          <img class="img-fluid" src="source/images/laptop.jpg">
-		</div>
-	  </div>
-
-	  
-			<div class="col-lg-6 mr-auto align-self-center">
-				<div class="feature-content">
-					<!-- Feature Title -->
-					<h2>Our Stakeholders and Potential Users<a
-					</a></h2>
-					<!-- Feature Description -->
-					<p class="desc"><b>RIT University:</b>
-						Responsible for providing reservation services to students<br>
-						<b>RIT Students:</b>
-						Expected users of the RIT Library Services<br>
-						<b>Clubs/Organizations:</b>
-						Expected users of the RIT Library Services for weekly or as needed meetings
-						</p>
-				</div>
-				<!-- Testimonial Quote -->
-				<div class="testimonial">
-				
-				</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+          <img class="img-fluid" src="images/laptop.jpg" alt="Laptop">
+        </div>
+      </div>
+      <div class="col-lg-6 mr-auto align-self-center">
+        <div class="feature-content">
+          <h2>Our Stakeholders and Potential Users</h2>
+          <p class="desc">
+            <b>RIT University:</b> Responsible for providing reservation services to students<br>
+            <b>RIT Students:</b> Expected users of the RIT Library Services<br>
+            <b>Clubs/Organizations:</b> Expected users of the RIT Library Services for weekly or as-needed meetings
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- PROBLEM SECTION -->
 <section class="feature section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 ml-auto align-self-center">
-				<div class="feature-content">
-					<!-- Feature Title -->
-					<h2>Problem to Fix <a
-							</a></h2>
-					<!-- Feature Description -->
-					<p>The current problem with reserving a study room in RIT Library Services website is that the interface proves to be difficult and confusing when reserving a room to study in. The students who have had to use this site have been extremely confused at different points of the process and we seek to bring an end to that.</p>
-				</div>
-				<!-- Testimonial Quote -->
-				
-				<!-- Feature mockup -->
-				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/Problem-solving.jpg alt="ipad">
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 ml-auto align-self-center">
+        <div class="feature-content">
+          <h2>Problem to Fix</h2>
+          <p>The current problem with reserving a study room in RIT Library Services website is that the interface proves to be difficult and confusing when reserving a room to study in. The students who have had to use this site have been extremely confused at different points of the process and we seek to bring an end to that.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="image-content" data-aos="fade-left">
+          <img class="img-fluid" src="images/Problem-solving.jpg" alt="Problem solving">
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!--====  End of Feature Grid  ====-->
 
-<!--==============================
-=            Services            =
-===============================-->
+<!-- SOLUTION SECTION -->
 <section class="service section bg-gray">
-	<div class="container-fluid p-0">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<h2>Our Solution to the Problem</h2>
-					<p> The direction to reduce the difficulty and confusion that students currently face while booking a room with RIT Library services is to redesign the interface. For example, when navigating the homepage, the first location to create a reservation is in the menu side bar, but for users who are focused on the center of the screen, this may be difficult to find. The current interface causes students to abandon the page after facing confusion on how to select a room, and this can gravely affect a student's education and experience with RIT. We plan to redesign the interface and provide something that stays true to the task of selecting a room to reserve without the current confusion. The location of "Create a Reservation" button will be moved from the bottom of the page, to allow users to find it quicker, and complete their task more efficiently. Along with other redesigns such as the schedule page that shows what rooms are currently available for the time slots. Our plan is to create an interface that is intuitive, and user friendly, which will positively affect students' educational experience. Below is a link to details of this project and redesign.
-
-</p>
-<br>
-					
-			
-		<a href="homepage-2.html">Project Focus</a>		
-			<br>
-				<a href= href="homepage-3.html">Milestone 2</a>			
+  <div class="container-fluid p-0">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h2>Our Solution to the Problem</h2>
+          <p>
+            The direction to reduce the difficulty and confusion that students currently face while booking a room with RIT Library services is to redesign the interface...
+          </p>
+          <br>
+          <a href="homepage-2.html">Project Focus</a><br>
+          <a href="homepage-3.html">Milestone 2</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
  
   <!-- JAVASCRIPTS -->
